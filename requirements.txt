@@ -1,0 +1,9 @@
+openai
+pandas
+numpy
+requests
+PyYAML
+matplotlib
+seaborn
+tqdm
+scikit-learn

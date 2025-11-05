@@ -1,0 +1,17 @@
+api_keys:
+  openai: "YOUR_OPENAI_API_KEY"
+  anthropic: "YOUR_ANTHROPIC_API_KEY"
+  llama: "YOUR_LLAMA_API_KEY"
+
+models:
+  - name: gpt-4
+    type: openai
+  - name: claude-v1
+    type: anthropic
+  - name: llama-2
+    type: llama
+
+keywords:
+  - artificial intelligence
+  - blockchain
+  - quantum computing
