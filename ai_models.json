@@ -1,0 +1,525 @@
+[
+  {
+    "name": "gpt-4",
+    "provider": "OpenAI",
+    "type": "LLM",
+    "use_case": [
+      "text-generation",
+      "summarization",
+      "question-answering"
+    ],
+    "description": "OpenAI's GPT-4 large language model for general-purpose natural language understanding and generation."
+  },
+  {
+    "name": "gpt-3.5-turbo",
+    "provider": "OpenAI",
+    "type": "LLM",
+    "use_case": [
+      "chatbot",
+      "text-completion",
+      "coding assistance"
+    ],
+    "description": "Faster and cheaper variant of GPT-3.5 designed for conversational applications."
+  },
+  {
+    "name": "text-davinci-003",
+    "provider": "OpenAI",
+    "type": "LLM",
+    "use_case": [
+      "creative-writing",
+      "summarization",
+      "translation"
+    ],
+    "description": "Highly capable GPT-3 variant for text generation and complex instructions."
+  },
+  {
+    "name": "codex-davinci",
+    "provider": "OpenAI",
+    "type": "LLM",
+    "use_case": [
+      "code-generation",
+      "code-completion"
+    ],
+    "description": "OpenAI Codex model specialized in generating and understanding code."
+  },
+  {
+    "name": "claude-1",
+    "provider": "Anthropic",
+    "type": "LLM",
+    "use_case": [
+      "assistant",
+      "text-analysis",
+      "summarization"
+    ],
+    "description": "Anthropic's first Claude model designed for safe and helpful AI responses."
+  },
+  {
+    "name": "claude-2",
+    "provider": "Anthropic",
+    "type": "LLM",
+    "use_case": [
+      "assistant",
+      "text-generation",
+      "coding help"
+    ],
+    "description": "Improved version of Claude with better contextual understanding."
+  },
+  {
+    "name": "llama-2-7b",
+    "provider": "Meta",
+    "type": "LLM",
+    "use_case": [
+      "research",
+      "chatbot",
+      "text-generation"
+    ],
+    "description": "Meta's LLaMA-2 model with 7B parameters for general-purpose tasks."
+  },
+  {
+    "name": "llama-2-13b",
+    "provider": "Meta",
+    "type": "LLM",
+    "use_case": [
+      "research",
+      "text-generation",
+      "chatbot"
+    ],
+    "description": "13B parameter version of LLaMA-2 with higher capacity for complex tasks."
+  },
+  {
+    "name": "llama-2-70b",
+    "provider": "Meta",
+    "type": "LLM",
+    "use_case": [
+      "research",
+      "text-generation",
+      "chatbot"
+    ],
+    "description": "Largest LLaMA-2 model for advanced research and high-complexity tasks."
+  },
+  {
+    "name": "mistral-7b",
+    "provider": "Mistral AI",
+    "type": "LLM",
+    "use_case": [
+      "research",
+      "text-generation"
+    ],
+    "description": "Open-weight dense model for efficient and performant text generation."
+  },
+  {
+    "name": "mistral-instruct",
+    "provider": "Mistral AI",
+    "type": "LLM",
+    "use_case": [
+      "instruction-following",
+      "chatbot"
+    ],
+    "description": "Fine-tuned version of Mistral-7B optimized for following instructions."
+  },
+  {
+    "name": "falcon-7b",
+    "provider": "TII",
+    "type": "LLM",
+    "use_case": [
+      "text-generation",
+      "chatbot",
+      "instruction-following"
+    ],
+    "description": "Open-weight LLM designed for general-purpose language tasks."
+  },
+  {
+    "name": "falcon-40b",
+    "provider": "TII",
+    "type": "LLM",
+    "use_case": [
+      "text-generation",
+      "chatbot",
+      "research"
+    ],
+    "description": "Large-scale 40B parameter LLM with advanced reasoning and generation capabilities."
+  },
+  {
+    "name": "bloom-176b",
+    "provider": "BigScience",
+    "type": "LLM",
+    "use_case": [
+      "research",
+      "text-generation",
+      "multilingual"
+    ],
+    "description": "Massive multilingual open-weight model with 176B parameters."
+  },
+  {
+    "name": "chatglm-6b",
+    "provider": "Zhipu AI",
+    "type": "LLM",
+    "use_case": [
+      "chatbot",
+      "text-generation",
+      "Chinese-language tasks"
+    ],
+    "description": "6B parameter Chinese-oriented open-weight conversational model."
+  },
+  {
+    "name": "ernie-3.0",
+    "provider": "Baidu",
+    "type": "LLM",
+    "use_case": [
+      "chatbot",
+      "search",
+      "question-answering"
+    ],
+    "description": "Large language model developed by Baidu for Chinese and multilingual tasks."
+  },
+  {
+    "name": "vicuna-7b",
+    "provider": "Community",
+    "type": "LLM",
+    "use_case": [
+      "chatbot",
+      "instruction-following"
+    ],
+    "description": "Instruction-tuned LLaMA-7B variant optimized for chat applications."
+  },
+  {
+    "name": "vicuna-13b",
+    "provider": "Community",
+    "type": "LLM",
+    "use_case": [
+      "chatbot",
+      "instruction-following"
+    ],
+    "description": "Instruction-tuned LLaMA-13B variant optimized for complex conversations."
+  },
+  {
+    "name": "oasst-7b",
+    "provider": "OpenAssistant",
+    "type": "LLM",
+    "use_case": [
+      "assistant",
+      "chatbot"
+    ],
+    "description": "Open-source assistant-tuned model for chat and task-oriented queries."
+  },
+  {
+    "name": "oasst-12b",
+    "provider": "OpenAssistant",
+    "type": "LLM",
+    "use_case": [
+      "assistant",
+      "chatbot"
+    ],
+    "description": "12B parameter variant of OpenAssistant tuned for more complex queries."
+  },
+  {
+    "name": "wizard-7b",
+    "provider": "CarperAI",
+    "type": "LLM",
+    "use_case": [
+      "instruction-following",
+      "chatbot"
+    ],
+    "description": "Instruction-tuned model based on LLaMA for versatile chat and reasoning."
+  },
+  {
+    "name": "wizard-13b",
+    "provider": "CarperAI",
+    "type": "LLM",
+    "use_case": [
+      "instruction-following",
+      "chatbot"
+    ],
+    "description": "Higher-capacity variant of Wizard model for long-form conversations."
+  },
+  {
+    "name": "koala-7b",
+    "provider": "Koala AI",
+    "type": "LLM",
+    "use_case": [
+      "instruction-following",
+      "chatbot"
+    ],
+    "description": "Open-weight instruction-tuned LLaMA variant for research and chat."
+  },
+  {
+    "name": "guanaco-7b",
+    "provider": "Community",
+    "type": "LLM",
+    "use_case": [
+      "instruction-following",
+      "chatbot"
+    ],
+    "description": "Fine-tuned LLaMA-7B model for instruction tasks."
+  },
+  {
+    "name": "guanaco-13b",
+    "provider": "Community",
+    "type": "LLM",
+    "use_case": [
+      "instruction-following",
+      "chatbot"
+    ],
+    "description": "Fine-tuned LLaMA-13B model for higher-complexity instruction tasks."
+  },
+  {
+    "name": "stablelm-3b",
+    "provider": "Stability AI",
+    "type": "LLM",
+    "use_case": [
+      "chatbot",
+      "text-generation"
+    ],
+    "description": "Open-source 3B parameter model optimized for chat and text generation."
+  },
+  {
+    "name": "stablelm-7b",
+    "provider": "Stability AI",
+    "type": "LLM",
+    "use_case": [
+      "chatbot",
+      "text-generation"
+    ],
+    "description": "7B parameter version with improved language understanding and generation."
+  },
+  {
+    "name": "aquila-7b",
+    "provider": "Aquila AI",
+    "type": "LLM",
+    "use_case": [
+      "instruction-following",
+      "research"
+    ],
+    "description": "Instruction-tuned open-weight model for text and reasoning tasks."
+  },
+  {
+    "name": "redpajama-3b",
+    "provider": "Together AI",
+    "type": "LLM",
+    "use_case": [
+      "research",
+      "text-generation"
+    ],
+    "description": "Open-source LLM trained on RedPajama dataset for general-purpose tasks."
+  },
+  {
+    "name": "redpajama-7b",
+    "provider": "Together AI",
+    "type": "LLM",
+    "use_case": [
+      "research",
+      "text-generation"
+    ],
+    "description": "7B parameter open-source model trained on RedPajama dataset."
+  },
+  {
+    "name": "redpajama-3b-instruct",
+    "provider": "Together AI",
+    "type": "LLM",
+    "use_case": [
+      "instruction-following",
+      "chatbot"
+    ],
+    "description": "Instruction-tuned variant optimized for conversational tasks."
+  },
+  {
+    "name": "redpajama-7b-instruct",
+    "provider": "Together AI",
+    "type": "LLM",
+    "use_case": [
+      "instruction-following",
+      "chatbot"
+    ],
+    "description": "Instruction-tuned 7B model variant for chat and instructions."
+  },
+  {
+    "name": "replit-code",
+    "provider": "Replit",
+    "type": "LLM",
+    "use_case": [
+      "code-generation",
+      "coding assistance"
+    ],
+    "description": "Replit's code-focused LLM for generating and completing code snippets."
+  },
+  {
+    "name": "starcoder-15b",
+    "provider": "BigCode",
+    "type": "LLM",
+    "use_case": [
+      "code-generation",
+      "code-completion"
+    ],
+    "description": "15B parameter open-source model specialized in code tasks."
+  },
+  {
+    "name": "codegen-6b",
+    "provider": "Salesforce",
+    "type": "LLM",
+    "use_case": [
+      "code-generation",
+      "coding assistant"
+    ],
+    "description": "6B parameter code generation model trained on public code datasets."
+  },
+  {
+    "name": "codegen-16b",
+    "provider": "Salesforce",
+    "type": "LLM",
+    "use_case": [
+      "code-generation",
+      "coding assistant"
+    ],
+    "description": "Large-scale code generation model for advanced coding tasks."
+  },
+  {
+    "name": "polyglot-7b",
+    "provider": "Community",
+    "type": "LLM",
+    "use_case": [
+      "multilingual",
+      "text-generation"
+    ],
+    "description": "Instruction-tuned multilingual model for chat and text generation."
+  },
+  {
+    "name": "polyglot-13b",
+    "provider": "Community",
+    "type": "LLM",
+    "use_case": [
+      "multilingual",
+      "text-generation"
+    ],
+    "description": "Higher-capacity multilingual variant for complex reasoning."
+  },
+  {
+    "name": "internlm-7b",
+    "provider": "InternLM",
+    "type": "LLM",
+    "use_case": [
+      "chatbot",
+      "instruction-following"
+    ],
+    "description": "Open-weight LLM for instruction following and chat tasks."
+  },
+  {
+    "name": "internlm-13b",
+    "provider": "InternLM",
+    "type": "LLM",
+    "use_case": [
+      "chatbot",
+      "instruction-following"
+    ],
+    "description": "13B parameter version of InternLM for advanced conversational tasks."
+  },
+  {
+    "name": "baize-13b",
+    "provider": "Community",
+    "type": "LLM",
+    "use_case": [
+      "chatbot",
+      "instruction-following"
+    ],
+    "description": "Open-source LLaMA-based model fine-tuned for chat and instructions."
+  },
+  {
+    "name": "mpt-7b-chat",
+    "provider": "MosaicML",
+    "type": "LLM",
+    "use_case": [
+      "chatbot",
+      "instruction-following"
+    ],
+    "description": "7B parameter chat model optimized for dialogue and instruction tasks."
+  },
+  {
+    "name": "mpt-30b-chat",
+    "provider": "MosaicML",
+    "type": "LLM",
+    "use_case": [
+      "chatbot",
+      "instruction-following"
+    ],
+    "description": "High-capacity 30B parameter chat model for long-context conversations."
+  },
+  {
+    "name": "cerberus-7b",
+    "provider": "Community",
+    "type": "LLM",
+    "use_case": [
+      "research",
+      "instruction-following"
+    ],
+    "description": "Instruction-tuned LLaMA-7B variant for research and chat experiments."
+  },
+  {
+    "name": "cerberus-13b",
+    "provider": "Community",
+    "type": "LLM",
+    "use_case": [
+      "research",
+      "instruction-following"
+    ],
+    "description": "Higher-capacity 13B model variant for complex research tasks."
+  },
+  {
+    "name": "guanaco-33b",
+    "provider": "Community",
+    "type": "LLM",
+    "use_case": [
+      "instruction-following",
+      "chatbot"
+    ],
+    "description": "Large instruction-tuned LLaMA-33B model for high-performance chat applications."
+  },
+  {
+    "name": "falcon-instruct-7b",
+    "provider": "TII",
+    "type": "LLM",
+    "use_case": [
+      "instruction-following",
+      "chatbot"
+    ],
+    "description": "7B Falcon model fine-tuned for following instructions."
+  },
+  {
+    "name": "falcon-instruct-40b",
+    "provider": "TII",
+    "type": "LLM",
+    "use_case": [
+      "instruction-following",
+      "chatbot"
+    ],
+    "description": "40B Falcon model fine-tuned for advanced instruction following."
+  },
+  {
+    "name": "llama-2-chat-7b",
+    "provider": "Meta",
+    "type": "LLM",
+    "use_case": [
+      "chatbot",
+      "instruction-following"
+    ],
+    "description": "Chat-optimized 7B LLaMA-2 variant for instruction and dialogue tasks."
+  },
+  {
+    "name": "llama-2-chat-13b",
+    "provider": "Meta",
+    "type": "LLM",
+    "use_case": [
+      "chatbot",
+      "instruction-following"
+    ],
+    "description": "Chat-optimized 13B LLaMA-2 variant for instruction and dialogue tasks."
+  },
+  {
+    "name": "llama-2-chat-70b",
+    "provider": "Meta",
+    "type": "LLM",
+    "use_case": [
+      "chatbot",
+      "instruction-following"
+    ],
+    "description": "Chat-optimized 70B LLaMA-2 variant for enterprise-grade dialogue and instruction tasks."
+  }
+]
